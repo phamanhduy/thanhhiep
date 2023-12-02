@@ -368,7 +368,7 @@
                             <div class="inner">
                                 <h2>Save the Date</h2>
                                 <span>For the wedding of</span>
-                                <h3>LÊ YÊN THANH</h3>
+                                <h3>LÊ YẾN THANH</h3>
                                 <p>“Sau bao năm tháng chơi đùa, hôm nay tôi chính thức rời bỏ cuộc chơi để chọn bình yên bên anh. Nhưng đừng lo, anh chính là 'trò chơi cuối cùng' của tôi, và chắc chắn sẽ không có chế độ 'restart'. Nếu không phải bình yên, thì ít nhất cũng là một trò chơi có kèm theo hỗ trợ lẫn nhau, đúng không?”</p>
                                 <a href="#rsvp" class="theme-btn" id="scroll">Gửi lời chúc</a>
                             </div>
@@ -502,7 +502,7 @@
             let hoten = document.getElementById('hoten');
             let email = document.getElementById('email');
             let loinhan = document.getElementById('loinhan');
-            if (hoten?.value !== '' && loinhan?.value !== '') {
+            if (hoten?.value !== '' && loinhan?.value !== '' && loinhan?.value.length >= 10) {
                 fetchApi(`https://hoc.khoinghiepbanhang.com/hiepthanh`, "POST", {
                     hoten: hoten?.value,
                     email: email?.value,
