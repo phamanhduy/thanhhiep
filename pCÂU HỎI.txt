@@ -1,0 +1,60 @@
+What is the best answer about "abstraction"?
+
+A. Hiding the implementation and showing only the features
+Each item in an array is accessed _____________
+
+C. sequentially
+What is the event.target when clicking the button?
+
+B. Button
+What is true about the queue data structure?
+
+D. First In First Out
+What does HTTP response ‘3xx’ code for?
+
+B. Redirection
+In the browser, localStorage object data ________
+
+B. is not deleted after the browser has been closed
+What is the correct JavaScript syntax to change the content of the HTML element below? <p id="demo">This is a demonstration.</p>
+
+C. document.getElementById("demo").innerHTML = "Hello World!";
+Is JavaScript case sensitive? It means JavaScript allows you to define two const variables name as following.
+
+B. Yes
+Which attribute is not used for the HTML tag <input type=”radio”>?
+
+C. selected
+Which is NOT an HTML inline element?
+
+B. <input>
+___________ is an attack which forces an end user to execute unwanted actions on a web application in which he/she is currently authenticated.
+
+B. Cross-site request forgery (CSRF)
+Nginx is a type of ________
+
+D. Web Server
+A section in HTML that contains generic information about the document.
+
+A. head
+What is the option, when moving to a branch (git checkout), to create the new branch if it does not exist?
+
+D. -b
+What is the structure of JWT (JSON Web Token)?
+
+D. Header, Payload, Signature
+The HTML attribute used to define the inline styles is
+
+D. style
+Which of the following is correct about web services?
+
+C. Both of the above
+Which of the following components of HTTP request contains metadata for the HTTP Request message as key-value pairs?
+
+A. Request Headers
+Which of the following algorithms does not divide the list?
+
+A. Linear search
+SQL: Which of the following is NOT true about a subquery?
+
+B. The result of the main query is returned to the subquery.
