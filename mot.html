@@ -521,6 +521,9 @@
                 }, (rep) => {
                     if (rep?.success) {
                         getLoiChuc();
+                         hoten.value = '';
+                         email.value = '';
+                         loinhan.value = '';
                         alert('Gửi lời nhắn đến Thanh Hiệp thành công công');
                     } else {
 
