@@ -1,0 +1,37 @@
+Vấn đề nổi cộm của team: 
+
+Tester spend rất nhiều thời gian trong 1 sprint (1 - 2 tuần) để đọc requirement mà đến lúc test vẫn không hiểu requirement (tester phải là người hiểu rõ requirement nhất trong team, nhưng ngược lại đi hỏi dev).
+
+Tester test tính năng rất qua loa, hầu như không viết test case, đến lúc test mới log bug và viết chút test case.
+
+Sprint hơn 2 tuần kéo dài khá lâu hầu như phải lết đến hơn 1 tháng mới xong, team dev không có plan cụ thể nào trong sprint, break task, estimate time không rõ ràng.
+
+Không có quản lý team trong việc planning sprint để member hiểu requirement và kết nối mọi người làm việc với nhau, Không spend time ra tìm và xử lý vấn đề trong team.
+
+Quy trình planning, develop, review code, test không rõ ràng, không có rule bắt buộc trong quy trình việc, dẫn đến 1 số member không chịu làm việc và sát sao công việc của mình.
+
+Nguyên nhân dẫn tới vấn đề trên: 
+
+Đầu sprint không được planning kỹ nên tester và dev không hiểu rõ requirement, chia task rất chung chung k tách ra từng task nhỏ, hầu như không có quản lý cho việc estimate time task nên dẫn đến tình trạng làm cả tính năng to mà không biết rõ thời gian nào hoàn hành, rất khó để quản lý tiến độ công việc.
+
+Daily meetting rất hời hợt không nghiêm túc, báo cáo rất chung chung, không đánh giá được đúng tiến độ làm việc trong 1 ngày của member.
+
+Tester không được estimate thời gian trong sprint nên không có plan viết test case, test rõ ràng từng task trong sprint.
+
+Reiview code cũng không có estimate thời gian, dẫn tới member có tâm lý đùn đẩy, các member chỉ review cho có, mỗi Bách e thấy còn spend time review tử tế.
+
+Coding convention còn thiếu nhiều, không build ra 1 rule coding convertion rõ ràng, hoàn chỉnh, pull request đẩy lên không ai chịu fix trước coding convention nên rất nhiều comment rác, rất mất thời gian cho reviewer.
+
+Chưa quản lý sát sao trong việc tìm ra vấn đề trong việc chậm task, tiến độ chung của team.
+
+Làm theo scrum nhưng các quy trình planning, refinement, develop, retrospective, sprint review đều bỏ qua không thực hiện.
+
+Giải pháp:
+
+Planning đầu sprint cần nên spend time thực hiện kỹ hơn nữa planning đầu srpint rất quan trọng trong sprint, buổi này phải hoàn toàn đánh giá đc issue, esstimate effort trong 1 sprint có cần điều chỉnh ko, cần break task sang sprint tiếp theo k, thống nhất một lần nữa ý hiểu của cả team về một requirement. Tester phải là người clear hơn tất cả các dev,  Dev cần break task kỹ hơn trong planning để review lại ý hiểu về requirement, cũng là để review lại requirement cho BA.
+
+Các vấn đề ảnh hưởng đến tiến độ của sprint như fix lỗi khách hàng report, lỗi từ sprint cũ, config server test, daily meeting, review code tất cả đều phải log chi tiết vào jiza và assign cho member cụ thể để quản lý tiến độ và tìm lại khi cần.
+
+Plan của tester nên theo sát các task của dev, estimate thời gian viết test case và test theo task của dev cụ thể trong sprint, test case phải xong trước và đưa cho dev fix hết 1 lượt normal case rồi mới chuyển sang test, như vậy sẽ hạn chế được normal case và tiết kiệm được rất nhiều thời gian, cũng là để tester nghiêm túc hơn trong cả sprint, chứ không phải dev làm xong rồi mà vẫn không hiểu requirement rồi đi test lại hỏi dev, thì rõ ràng thời gian rảnh trong sprint rất nhiều.
+
+Nên có buổi retrospective để cải thiện team, ở đó member có thể thoải mái nói lên ý kiến của mình về tính năng sản phẩm, về vấn đề cần cải thiện của team, phần nào làm tốt, chưa tốt cần khắc phục, giúp member cảm thấy ý kiến mình cũng đóng góp 1 phần trong việc phát triển team, giúp có động lực làm việc và quy trình làm việc của team luôn được tối ưu.
